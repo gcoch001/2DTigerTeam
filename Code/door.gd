@@ -18,3 +18,4 @@ func _on_player_exit(body):
 func _on_mouse_click(viewport, event, shape_idx):
 	if(playerInArea and event.is_pressed() and event.button_index == BUTTON_LEFT):
 		print("GOTO new scene")
+		get_tree().change_scene("res://Scenes/Hallway.tscn")

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/schoolFrontTemp.jpg-88836d577ac5dbbf2d297a471107c05c.stex"
+path="res://.import/icon.png-3a6ebb5133a0ef65ed543eab1b0297b7.stex"
 
 [deps]
 
-source_file="res://schoolFrontTemp.jpg"
-dest_files=[ "res://.import/schoolFrontTemp.jpg-88836d577ac5dbbf2d297a471107c05c.stex" ]
+source_file="res://Backgrounds and Sprites/icon.png"
+dest_files=[ "res://.import/icon.png-3a6ebb5133a0ef65ed543eab1b0297b7.stex" ]
 
 [params]
 
