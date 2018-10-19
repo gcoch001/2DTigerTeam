@@ -1,0 +1,18 @@
+
+
+https://www.slant.co/versus/1047/1068/~unity_vs_godot
+
+>powershell
+>Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+>iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+>scoop help
+>scoop install curl
+>scoop install git
+>git help
+>scoop install openssh
+>[environment]::setenvironmentvariable('GIT_SSH', (resolve-path (scoop which ssh)), 'USER')
+>scoop install grep
+>$env:path | grep -o curl
+>$env:path | grep -o git
+>scoop bucket add extras
+>scoop install godot
