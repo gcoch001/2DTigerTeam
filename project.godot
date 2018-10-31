@@ -11,7 +11,7 @@ config_version=3
 [application]
 
 config/name="TigerTeamProject"
-run/main_scene="res://schoolFrontTemp.tscn"
+run/main_scene="res://Scenes/schoolFrontTemp.tscn"
 config/icon="res://icon.png"
 
 [input]
@@ -31,7 +31,3 @@ DOWN=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","
 JUMP=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":16777232,"unicode":0,"echo":false,"script":null)
 , Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"pressed":false,"scancode":32,"unicode":0,"echo":false,"script":null)
  ]
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"

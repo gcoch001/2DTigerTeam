@@ -1,14 +1,14 @@
 [gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://Backgrounds and Sprites/Picture2.png" type="Texture" id=1]
-[ext_resource path="res://Code/door.gd" type="Script" id=2]
+[ext_resource path="res://Code/SchoolFrontDoor.gd" type="Script" id=2]
 [ext_resource path="res://Backgrounds and Sprites/icon.png" type="Texture" id=3]
 [ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 
 custom_solver_bias = 0.0
-extents = Vector2( 11.0144, 10 )
+extents = Vector2( 12.1243, 10 )
 
 [sub_resource type="RectangleShape2D" id=2]
 
@@ -26,7 +26,7 @@ extents = Vector2( 10, 14.0533 )
 custom_solver_bias = 0.0
 extents = Vector2( 51.692, 46.9678 )
 
-[node name="schoolFrontTemp" type="Sprite" index="0"]
+[node name="schoolFrontTemp" type="Sprite"]
 
 position = Vector2( 1320.28, 643.984 )
 scale = Vector2( 1.35968, 1.42339 )
@@ -75,8 +75,8 @@ bounce = 0.0
 
 [node name="Ground" type="CollisionShape2D" parent="Walls" index="0"]
 
-position = Vector2( -3.51973, 90.2598 )
-scale = Vector2( 32.7283, 1 )
+position = Vector2( 4.71936, 89.5248 )
+scale = Vector2( 70.8154, 1 )
 shape = SubResource( 1 )
 
 [node name="LeftWall" type="CollisionShape2D" parent="Walls" index="1"]

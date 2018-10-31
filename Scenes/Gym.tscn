@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Backgrounds and Sprites/Gym.png" type="Texture" id=1]
+
+[node name="Sprite" type="Sprite"]
+
+position = Vector2( 794.349, 446.898 )
+texture = ExtResource( 1 )
+
+
